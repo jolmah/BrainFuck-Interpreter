@@ -35,3 +35,4 @@ Brainfuck Interpreter
 ‎License
 ‎This project is free to use and share. Credit appreciated but not required.
 ‎
+Developed by Jolmah {_+_}
