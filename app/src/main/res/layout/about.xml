@@ -1,0 +1,39 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#151819"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview1"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="4dp"
+			android:text="About BrainFuck - Interpreter"
+			android:textSize="15sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"
+			android:layout_gravity="center_horizontal|center_vertical" />
+		<TextView
+			android:id="@+id/textview2"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="16dp"
+			android:paddingTop="4dp"
+			android:paddingRight="16dp"
+			android:paddingBottom="16dp"
+			android:text="- Brainfuck code editor with syntax highlighting  \n- Font size and style customization  \n- Brainfuck interpreter with ASCII output  \n- Output shown in separate activity/layout  \n- Popup menu with File, Save, Settings, and Close options  \n- Progress dialog while compiling  \n- This Interpreter is been written in Java &gt;_&lt;\n- Basic error handling (e.g., empty editor message)"
+			android:textSize="14sp"
+			android:textColor="#A0A09C" />
+	</LinearLayout>
+</LinearLayout>

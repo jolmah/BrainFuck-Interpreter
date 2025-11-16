@@ -1,0 +1,128 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/_coordinator"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.google.android.material.appbar.AppBarLayout
+		android:id="@+id/_app_bar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<LinearLayout
+			android:id="@+id/mSampleMenu"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="4dp"
+			android:background="#151819"
+			android:orientation="vertical"
+			android:layout_gravity="center_horizontal|center_vertical">
+			<LinearLayout
+				android:id="@+id/mSampleA"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="8dp"
+					android:paddingTop="8dp"
+					android:paddingRight="8dp"
+					android:paddingBottom="4dp"
+					android:text="A -&gt; BrainFuck"
+					android:textSize="15sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:focusable="false" />
+				<TextView
+					android:id="@+id/textview5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="8dp"
+					android:paddingTop="4dp"
+					android:paddingRight="8dp"
+					android:paddingBottom="8dp"
+					android:text="Print &quot;A&quot; in BrainFuck  Lang..."
+					android:textSize="15sp"
+					android:textColor="#A0A09C"
+					android:focusable="false" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/mSample1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview7"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="8dp"
+					android:paddingTop="8dp"
+					android:paddingRight="8dp"
+					android:paddingBottom="4dp"
+					android:text="1 -&gt; BrainFuck"
+					android:textSize="15sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:focusable="false" />
+				<TextView
+					android:id="@+id/textview8"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="8dp"
+					android:paddingTop="4dp"
+					android:paddingRight="8dp"
+					android:paddingBottom="8dp"
+					android:text="BrainFuck Code for &quot;1&quot;"
+					android:textSize="15sp"
+					android:textColor="#A0A09C"
+					android:focusable="false" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/mSampleHello"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/textview9"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="8dp"
+					android:paddingTop="8dp"
+					android:paddingRight="8dp"
+					android:paddingBottom="4dp"
+					android:text="Hello, World! -&gt; BrainFuck"
+					android:textSize="15sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:focusable="false" />
+				<TextView
+					android:id="@+id/textview10"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="8dp"
+					android:paddingTop="4dp"
+					android:paddingRight="8dp"
+					android:paddingBottom="8dp"
+					android:text="&quot;Hello, Word!&quot; in BrainFuck Lang..."
+					android:textSize="15sp"
+					android:textColor="#A0A09C"
+					android:focusable="false" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
