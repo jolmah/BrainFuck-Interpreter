@@ -1,6 +1,4 @@
 ---
-
-```markdown
 Brainfuck Interpreter
 
 A simple and lightweight Brainfuck interpreter for Android.  
